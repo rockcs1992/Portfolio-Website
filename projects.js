@@ -3,19 +3,10 @@ const projects = [
     title: 'Varidada',
     category: 'web-development',
     image: 'img/varidada.png',
-    description: '<p>Varidada Inc. is a music technology startup that aims at creating new ways for musiccollaboration. I did an internship there and participated in the development of their first product, varidada.com</p><p>This is a platform that helps musicians to upload their recordings/sound tracks and collaborate with the other players jamming online. It provides cute cartoon characters, powerful online recorder and online practicing systems. The whole project is based on MEAN stack (MongoDB, Express, AngularJS, NodeJS). As a full stack developer, I participated in setting up the basic functionalities of it, especially music mixing and recording mechanism.</p>',
+    description: '<p>Varidada Inc. is a music technology startup that aims at creating new ways for musiccollaboration. I did an internship there and participated in the development of their first product, varidada.com</p><p>This is a platform that helps musicians to upload their recordings/sound tracks and collaborate with the other players jamming online. It provides cute cartoon characters, powerful online recorder and online practicing systems. The whole project is based on MEAN stack (MongoDB, Express, AngularJS, NodeJS). As a full stack developer, I participated in setting up the basic functionalities of it, especially music mixing and recording mechanism.</p><p><a href="files/code-sample.pdf">Sample Code</a></p>',
     url: 'https://www.varidada.com',
     technology: 'NodeJS, AngularJS, MongoDB',
     period: '05/2016-02/2017'
-  },
-  {
-    title: 'Earsketch',
-    category: 'web-development',
-    image: 'img/earsketch.png',
-    description: '<p>EarSketch is a National Science Foundation (NSF) funded project that aims to teach kids computer science by making music. The users could write Python/Javascript code in theeditor, making use of our API. Our compiler will compile these codes into music snippets, then display and play them back.</p><p>It is a great computer science/music learning tool and is used by a lot of schools in the States.</p><p>I worked as a graduate developer for this project for one semester,focusing on solving bugs related to web audio, and re-arrange the layout of the app.</p>',
-    url: 'https://earsketch.gatech.edu',
-    technology: 'AngularJS, BootStrap',
-    period: '01/2016-05/2016'
   },
   {
     title: 'SoundWhich',
@@ -27,6 +18,16 @@ const projects = [
     period: '11/2016-02/2017'
   },
   {
+    title: 'Pipe Broken',
+    category: 'music',
+    description: `<p>This is a project built for 2017 Moog/Guthman Hackathon. Over 30 teams from variousbackground joined the competition. Each team was given a Moog Werkstatt (an electronicsynth kit) and asked to build an instrument based on that. The participants were allowed tobut not limited to add their own modules, modify the Werkstatt circuit, program orreprogram the controller.</p><p>My team included five people, all of which are from Georgia Tech Center for MusicTechnology. As a team leader, I was in charge of the architecture of the project, selectingsuitable tech stack, including hardware modules/components and software kits. Also, Imanaged the pace of the project so that everybody found the right spot on the team andwere clear about specific roles. Meanwhile as one of the developers, I programmed theinterface between hardware (Arduino, Moog synthesizer) and part of the software (MaxMSP),and implemented the functionality of arpeggiator for the electronic bagpipe.</p>
+<p>The project was extremely popular and attracted a lot of people to try it during the finalpresentation. It earned us an honorable mention among over 30 groups of competitiveparticipants.</p><p>Unfortunately I didn’t keep any good video demos for this project, neither do I have myselfin the demo video since I don’t play any pipe instrument. In the demo video I was the onebeside introducing the features of the project.</p><p><u><em>Breakdown diagram:</em></u></p><p><img src="img/pipe-broken-chart.png" alt="Pipe Broken Breakdown Chart" /></p>`,
+    image: 'img/pipe-broken.png',
+    technology: 'SuperCollider, Arduino, Rawsberry PI',
+    period: '03/2017',
+    video: 'https://www.youtube.com/watch?v=slsZ8dNtxKI'
+  },
+  {
     title: 'Sound Hockey',
     category: 'research',
     image: 'img/soundhockey.png',
@@ -34,6 +35,15 @@ const projects = [
     technology: 'ToneJS, VueJS, PhaserJS',
     period: '09/2016-05/2017',
     video: 'https://www.youtube.com/watch?v=HsuWYHg_aFQ&t=3s'
+  },
+  {
+    title: 'Earsketch',
+    category: 'web-development',
+    image: 'img/earsketch.png',
+    description: '<p>EarSketch is a National Science Foundation (NSF) funded project that aims to teach kids computer science by making music. The users could write Python/Javascript code in theeditor, making use of our API. Our compiler will compile these codes into music snippets, then display and play them back.</p><p>It is a great computer science/music learning tool and is used by a lot of schools in the States.</p><p>I worked as a graduate developer for this project for one semester,focusing on solving bugs related to web audio, and re-arrange the layout of the app.</p>',
+    url: 'https://earsketch.gatech.edu',
+    technology: 'AngularJS, BootStrap',
+    period: '01/2016-05/2016'
   },
   {
     title: 'Traffic Visulization and Prediction',
@@ -45,15 +55,6 @@ const projects = [
     period: '05/2015'
   },
   {
-    title: 'Sonic HITS',
-    category: 'web-development',
-    description: '<p>A simple digital branding site for a music technology startup, Sonic Hits.</p>',
-    url: 'https://sonichits.studio',
-    image: 'img/sonichits.png',
-    technology: 'PHP, WordPress',
-    period: '06/2017'
-  },
-  {
     title: 'Water Instrument',
     category: 'music',
     description: '<p>The project is an interactive music system that allows the users to produce sounds bytouching and stirring the water. It makes use of the Makey Makey board (hardware) andMaxMSP (software), and connects them together. The fancy part of the system is its input,which is a group of glasses with water. The glasses, actually the water in the glasses, cantrigger sound once they are pressed, just like normal keyboards. And the users can definedifferent sound timbre/effects in software.</p><p>Unfortunately I don’t have a better video demo for this project because it is not easy to setup. The system looks a little bit dull in the video, but that’s because it’s not designed for onesingle player. Trust me it is fine when multiple users are playing it.</p><p><em><u>Breakdown Diagram</u></em>:</p><p><img src="img/water-instrument-chart.png" alt="Water Instrument Breakdown Chart"/></p>',
@@ -63,14 +64,13 @@ const projects = [
     video: 'https://www.youtube.com/watch?v=AZwArOEwXao&t=1s'
   },
   {
-    title: 'Pipe Broken',
-    category: 'music',
-    description: `<p>This is a project built for 2017 Moog/Guthman Hackathon. Over 30 teams from variousbackground joined the competition. Each team was given a Moog Werkstatt (an electronicsynth kit) and asked to build an instrument based on that. The participants were allowed tobut not limited to add their own modules, modify the Werkstatt circuit, program orreprogram the controller.</p><p>My team included five people, all of which are from Georgia Tech Center for MusicTechnology. As a team leader, I was in charge of the architecture of the project, selectingsuitable tech stack, including hardware modules/components and software kits. Also, Imanaged the pace of the project so that everybody found the right spot on the team andwere clear about specific roles. Meanwhile as one of the developers, I programmed theinterface between hardware (Arduino, Moog synthesizer) and part of the software (MaxMSP),and implemented the functionality of arpeggiator for the electronic bagpipe.</p>
-<p>The project was extremely popular and attracted a lot of people to try it during the finalpresentation. It earned us an honorable mention among over 30 groups of competitiveparticipants.</p><p>Unfortunately I didn’t keep any good video demos for this project, neither do I have myselfin the demo video since I don’t play any pipe instrument. In the demo video I was the onebeside introducing the features of the project.</p><p><u><em>Breakdown diagram:</em></u></p><p><img src="img/pipe-broken-chart.png" alt="Pipe Broken Breakdown Chart" /></p>`,
-    image: 'img/pipe-broken.png',
-    technology: 'SuperCollider, Arduino, Rawsberry PI',
-    period: '03/2017',
-    video: 'https://www.youtube.com/watch?v=slsZ8dNtxKI'
+    title: 'Sonic HITS',
+    category: 'web-development',
+    description: '<p>A simple digital branding site for a music technology startup, Sonic Hits.</p>',
+    url: 'https://sonichits.studio',
+    image: 'img/sonichits.png',
+    technology: 'PHP, WordPress',
+    period: '06/2017'
   }
 ]
 
