@@ -397,7 +397,6 @@ ul.navbar li a:hover, ul.navbar li a.active, .navbar-default .navbar-nav>li>a:ho
 	font-size: 14px;
 }
 .footer-bottom a{
-	text-transform: capitalize;
 	text-decoration: none;
 	font-size: 14px;
 }
